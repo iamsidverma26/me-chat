@@ -20,7 +20,7 @@ import Lottie from "react-lottie";
 import animationData from "../animations/typing.json";
 import { ChatState } from "../Context/chatProvider.js";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://me-chat-kwg0.onrender.com";
 let socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
